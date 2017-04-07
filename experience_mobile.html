@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="pf_style_mobile.css">
+
+</head>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index_mobile.html">Home</a>
+  <a href="about_mobile.html">About Me</a>
+  <a href="experience_mobile.html">Experience</a>
+</div>
+
+<span id="menuButton" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script> 
+
+<header>
+	<h2>Charles Boothby</h2>
+</header>
+
+<ul id="nav">
+ 	<li><a href="index_mobile.html">Home</a></li>
+    <li><a href="about_mobile.html">About</a></li>
+    <li><a href="experience_mobile.html" style = "background-color: #111111">Experience</a></li>
+</ul>
+
+<ul id="mobilenav">
+    <li>Experience</li>
+</ul>
+
+<p id="vimeo">Check out my <a href="https://vimeo.com/user64860010" target="_blank">Vimeo page</a> for an in-depth look at my projects!</p>
+
+<p style="font-family: 'Josefin Sans', sans-serif; font-size: 250%; text-align: center; text-decoration: underline;"><a href="Resumé_v2.pdf" target="_blank"> Résumé</a></p>
+
+<h3 style= "padding: 0 2em">Programs</h3> <hr>
+
+<table>
+	<tr>
+		<th><img id="exp" src="Images/ae.png" alt="Adobe After Effects" title="Adobe After Effects"></th>
+		<th><img id="exp" src="Images/pr.png" alt="Adobe Premiere Pro" title="Adobe Premiere Pro"></th>
+		<th><img id="exp" src="Images/ps.png" alt="Adobe Photoshop" title="Adobe Photoshop"></th>
+	</tr>
+	<tr>
+		<th><img id="exp" src="Images/maya.png" alt="Autodesk Maya" title="Autodesk Maya"></th>
+		<th><img id="unity" src="Images/unity.png" alt="Unity" title="Unity"></th>
+		<th><img id="exp" src="Images/piskel.png" alt="Piskel" title="Piskel"></th>
+	</tr>
+</table>
+
+<br>
+
+<h3 style= "padding: 0 2em">Work</h3> <hr>
+
+<table style = "padding: 2em 0">
+	<tr>
+		<th><a href="http://www.thehyppo.com/" target="_blank"><img src="Images/hyppo.jpeg" alt="The Hyppo Gourmet Ice Pops" title="The Hyppo" width="220px" height="240px"></a></th>
+		<th><a href="http://www.thehyppo.com/" target="_blank" style="font-size: 150%">The Hyppo</th>	
+	</tr>
+	<tr>
+		<th><a href="http://www.floridaelks.org/enriching-the-lives-of-children" target="_blank"><img src="Images/feyc.png" alt="Florida Elks Youth Camp" title="Florida Elks Youth Camp" width="275px" height="240px"></a></th>
+		<th><a href="http://www.floridaelks.org/enriching-the-lives-of-children" target="_blank" style="font-size: 150%"> Florida Elks Youth Camp</th>
+	</tr>
+</table>
+
+
+<footer>
+	<table id="foot">
+		<tr>
+			<th>Contact Me!</th>
+			<th>cmboothby@gmail.com</th>
+			<th>(941)962-0636</th>
+		</tr>
+	</table>
+</footer>
+
+
+</body>
+</html>

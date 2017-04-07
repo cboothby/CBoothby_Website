@@ -1,0 +1,278 @@
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 180%;
+    position: relative;
+    bottom: 2em;
+    right: 2em;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+@media screen and (min-width: 415px){
+    .sidenav{
+        visibility: hidden;
+    }
+    #menuButton{
+        visibility: hidden;
+    }
+    #mobilenav{
+        visibility: hidden;
+
+    }   
+    #nav{
+        visibility: visible;
+    }
+
+    #videos{
+        width: 55%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 828px){
+    #menuButton{
+        visibility: visible;
+        font-size: 40px;
+        color: #727272;
+        cursor:pointer;
+        position: relative;
+        top: 1em;
+    }
+
+    #aboutimg{
+        position: relative;
+        right: 1em;
+    }
+
+    #videos{
+        width: 75%;
+        height: 300px;
+    }
+
+    #nav{
+        visibility: hidden;
+    }
+
+    #mobilenav{
+        visibility: visible;
+        position: relative;
+        bottom: 9em;
+    }
+
+    .sidenav {
+        visibility: visible;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        font-family: 'Josefin Sans', sans-serif;
+        visibility: visible;
+        padding: 40px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover, .offcanvas a:focus{
+        visibility: visible;
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+}
+
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #333333;
+    padding: 25px 0;
+    width: 100%;
+    position: relative;
+    bottom: 3em;
+
+}
+
+li {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline;
+    padding: 0 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+li a {
+    font-size: 75%;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+h2{
+    position: relative;
+    top:15px;
+    left: 125px;
+    font-size: 90%;
+}
+
+#head{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    border-color: #333333;
+    width: 15%;
+    padding: 15px 0px;
+    color: #333333;
+}
+
+/*
+th{
+    padding: 7% 10%;
+}*/
+
+/*table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}*/
+
+
+#videos{
+    display: block;
+    margin: auto;
+    position:relative;
+    margin: auto;
+}
+
+h4{
+    text-align: center;
+    font-size: 350%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position:relative;
+    bottom: 275px;
+}
+
+h5{
+    text-align: left;
+    position: relative;
+}
+
+ a{
+    text-decoration:none;
+}
+
+#aboutimg{
+    padding: 0 2em 0;
+    border-radius: 9%;
+}
+
+#about{
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    width: 90%;
+    line-height: 200%;
+    font-size: 150%;
+}
+
+#exp{
+    position: ;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+#unity{
+    width:200px;
+    height:75px;
+}
+
+#work{
+    width: 45%;
+    float: right;
+}
+
+#prw{
+    font-size: 200%;
+}
+
+#ct{
+    width: 75px;
+    height: 75px;
+}
+
+#foot{
+    margin: auto;
+    background-color: #e0e0e0;
+    font-size: 150%;
+}
+
+th{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 20px;
+}
+
+#anim{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    bottom: 2em;
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+}
+
+#vimeo{
+    font-family: 'Josefin Sans';
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    bottom: 2em;
+}
