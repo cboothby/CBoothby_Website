@@ -276,3 +276,13 @@ h3{
     position: relative;
     bottom: 2em;
 }
+
+#hyppo:hover {
+    outline: solid;
+    outline-color: #999999;
+}
+
+#feyc:hover {
+    outline: solid;
+    outline-color: #999999;
+}
