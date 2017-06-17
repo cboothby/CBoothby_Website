@@ -40,6 +40,17 @@ body{
         width: 55%;
         height: 500px;
     }
+
+    #wideTable{
+        display: block;
+        visibility: visible;
+    }
+
+    #narrowTable{
+        display: none;
+        visibility: hidden;
+    }
+
 }
 
 @media screen and (max-width: 828px){
@@ -53,9 +64,20 @@ body{
     }
 
     #aboutimg{
-        position: relative;
-        right: 1em;
+        width:80%;
+        height: 80%;
     }
+
+    #wideTable{
+        display: none;
+        visibility: hidden;
+    }
+
+    #narrowTable{
+        display: block;
+        visibility: visible;
+    }
+
 
     #videos{
         width: 75%;
@@ -220,7 +242,7 @@ h5{
 }
 
 #exp{
-    position: ;
+    position: relative;
     width: 100px;
     height: 100px;
     padding: 50px;
@@ -245,10 +267,17 @@ h5{
     height: 75px;
 }
 
-#foot{
+.fixed{
+    position: fixed;
     margin: auto;
     background-color: #e0e0e0;
     font-size: 150%;
+    bottom: 0;
+    width: 100%;
+}
+
+#foot{
+    margin:auto;
 }
 
 th{
